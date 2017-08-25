@@ -1,0 +1,9 @@
+﻿[2015/11/09 09:55:56.9521] OMRON.Compolet.SYSMAC.SysmacTimeoutException: Receive timeout error ---> OMRON.FinsGateway.Messaging.FgwMsgException: Receive timeout error
+   at OMRON.FinsGateway.Messaging.Port.ReceiveData(Byte[]& receiveMessage, FinsAddress& peerAddr, Int32& receiveMessageSize)
+   at OMRON.FinsGateway.Messaging.Port.ReceiveData(FinsMessage& receiveMessage, FinsAddress& peerAddr, Int32& receiveMessageSize)
+   at OMRON.FinsGateway.Messaging.Port.ReceiveData(FinsMessage& receiveMessage, FinsAddress& peerAddr)
+   at OMRON.Compolet.SYSMAC.SysmacPlc.InternalExecuteFinsService(FinsCommandMessage command, FinsResponseMessage& response, Boolean ignoreErrorResponse)
+   --- End of inner exception stack trace ---
+   at BCS.clsPlcWrapper.WriteMemoryWordInteger(MemoryTypes memoryType, Int64 offset, Int32[] writeData, DataTypes dataType) in C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\Class\clsPlcWrapper.vb:line 84
+   at BCS.clsPlcWrapper.WriteMemoryWordIntegerDMBCD0(Int64 offset, Int32 writeData) in C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\Class\clsPlcWrapper.vb:line 68
+   at BCS.clsBatchComm.clsBatchComm_DoWork(Object sender, DoWorkEventArgs e) in C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\Class\clsBatchComm.vb:line 735

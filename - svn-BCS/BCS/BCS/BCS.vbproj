@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4F20427-7E7E-4B4C-B427-8905E662A982}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BCS.My.MyApplication</StartupObject>
+    <RootNamespace>BCS</RootNamespace>
+    <AssemblyName>BCS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hop1_00.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="SysmacCompolet, Version=1.1.0.1, Culture=neutral, PublicKeyToken=e010e60d6deeb244">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\OMRON\CX-Compolet\assembly\Compolet.1.1.0.1\SysmacCompolet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\clsAdoX.vb" />
+    <Compile Include="Class\clsAdoxCached.vb" />
+    <Compile Include="Class\clsBatchComm.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\clsBatchResultInfo.vb" />
+    <Compile Include="Class\clsCrReport.vb" />
+    <Compile Include="Class\clsLog.vb" />
+    <Compile Include="Class\clsLogger.vb" />
+    <Compile Include="Class\clsPlcWrapper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Class\clsRevisionInfo.vb" />
+    <Compile Include="Class\clsFormulaDetailInfo.vb" />
+    <Compile Include="Class\clsFormulaInfo.vb" />
+    <Compile Include="Class\clsLineInfo.vb" />
+    <Compile Include="Class\clsRMInfo.vb" />
+    <Compile Include="Class\clsRoleInfo.vb" />
+    <Compile Include="Class\clsScaleInfo.vb" />
+    <Compile Include="Class\clsShiftInfo.vb" />
+    <Compile Include="Class\clsUserRolesInfo.vb" />
+    <Compile Include="Class\clsUsersInfo.vb" />
+    <Compile Include="control\ctrlPlcStatus.Designer.vb">
+      <DependentUpon>ctrlPlcStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="control\ctrlPlcStatus.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="control\ctrlPlcStatusLight.Designer.vb">
+      <DependentUpon>ctrlPlcStatusLight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="control\ctrlPlcStatusLight.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="form\frmBatchList.Designer.vb">
+      <DependentUpon>frmBatchList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmBatchList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmCrReport.Designer.vb">
+      <DependentUpon>frmCrReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmCrReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmBatchResult.Designer.vb">
+      <DependentUpon>frmBatchResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmBatchResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmFormulaDesign.designer.vb">
+      <DependentUpon>frmFormulaDesign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmFormulaDesign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmGraphic.Designer.vb">
+      <DependentUpon>frmGraphic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmGraphic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmReport.designer.vb">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\frmShift.Designer.vb">
+      <DependentUpon>frmShift.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form\frmShift.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\RptDaily.vb">
+      <DependentUpon>RptDaily.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Report\RptOilDaily.vb">
+      <SubType>Component</SubType>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptOilDaily.rpt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="control\ctrlPlcStatus.resx">
+      <DependentUpon>ctrlPlcStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="control\CtrlPlcStatusLight.resx">
+      <DependentUpon>ctrlPlcStatusLight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmBatchList.resx">
+      <DependentUpon>frmBatchList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmBatchResult.resx">
+      <DependentUpon>frmBatchResult.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmCrReport.resx">
+      <DependentUpon>frmCrReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmFormulaDesign.resx">
+      <DependentUpon>frmFormulaDesign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmGraphic.resx">
+      <DependentUpon>frmGraphic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmReport.resx">
+      <DependentUpon>frmReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form\frmShift.resx">
+      <DependentUpon>frmShift.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\Image\m6.bmp" />
+    <None Include="resource\Image\m2.bmp" />
+    <None Include="Resources\GearStop.bmp" />
+    <None Include="Resources\hop2_00.bmp" />
+    <None Include="Resources\hop1_00.bmp" />
+    <None Include="Resources\Graphic_bg.bmp" />
+    <None Include="Resources\graphic_BG1.bmp" />
+    <None Include="Resources\graphic_BG2.bmp" />
+    <Content Include="hop1_00.ico" />
+    <None Include="Resources\Graphic_1600x900.bmp" />
+    <None Include="Resources\Formula_1600x900.bmp" />
+    <None Include="Resources\img_lightoff_1600X900.bmp" />
+    <None Include="Resources\img_lighton_1600X900.bmp" />
+    <Content Include="resource\Image\btn_delete.bmp" />
+    <Content Include="resource\Image\btn_exit.bmp" />
+    <Content Include="resource\Image\btn_new.bmp" />
+    <Content Include="resource\Image\btn_save.bmp" />
+    <Content Include="resource\Image\GearRunning.gif" />
+    <Content Include="resource\Image\GearStop.png" />
+    <Content Include="resource\Image\Graphic.bmp" />
+    <Content Include="resource\Image\Graphic_bg.bmp" />
+    <EmbeddedResource Include="Report\RptDaily.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptDaily.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\RptOilDaily.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptOilDaily.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resource\Image\img_lightoff.BMP" />
+    <EmbeddedResource Include="resource\Image\img_lighton.BMP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource\Image\Formula.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="CRREPORTSOURCEBRIDGELib">
+      <Guid>{80F19574-9245-4DFA-A0A6-8A21874282D3}</Guid>
+      <VersionMajor>13</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="CrystalReportsCommonObjectModelLib">
+      <Guid>{FDB9B69E-BA79-4B13-9E96-8373AF162AEA}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="CrystalReportsCubeDefModelLib">
+      <Guid>{44AD71D4-4905-491D-B179-B5D91EB57374}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="CrystalReportsDataDefModelLib">
+      <Guid>{9B2F3E7B-8D45-47E8-95D3-3A9C1B22437F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

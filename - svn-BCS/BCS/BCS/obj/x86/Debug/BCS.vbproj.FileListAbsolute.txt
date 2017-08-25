@@ -1,0 +1,54 @@
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.exe.config
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.exe
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.pdb
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.xml
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\bin\Debug\Accessibility.dll
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CRREPORTSOURCEBRIDGELib.dll
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CrystalReportsDataDefModelLib.dll
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.vbproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.g.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.ctrlPlcStatus.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.CtrlPlcStatusLight.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmBatchList.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmBatchResult.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmCrReport.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmFormulaDesign.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmGraphic.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmLogin.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmReport.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmShift.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.Resources.resources
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.exe.licenses
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.exe
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.xml
+C:\Users\Administrator\Desktop\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.pdb
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.exe.config
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.exe
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.pdb
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\bin\Debug\BCS.xml
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\bin\Debug\Accessibility.dll
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CRREPORTSOURCEBRIDGELib.dll
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\Interop.CrystalReportsDataDefModelLib.dll
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.vbproj.ResolveComReference.cache
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.g.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.ctrlPlcStatus.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.CtrlPlcStatusLight.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmBatchList.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmBatchResult.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmCrReport.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmFormulaDesign.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmGraphic.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmLogin.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmReport.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.frmShift.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.Resources.resources
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.vbproj.GenerateResource.Cache
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.exe.licenses
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.exe
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.xml
+D:\TSE Projects\AJEC\- svn-BCS\BCS\BCS\obj\x86\Debug\BCS.pdb

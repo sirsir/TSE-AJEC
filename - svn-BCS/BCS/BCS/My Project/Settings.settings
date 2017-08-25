@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="g_dtCreatePDFTime" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">12:00:00</Value>
+    </Setting>
+    <Setting Name="g_intLimitLogLine" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="g_strBuildingName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NFP-A</Value>
+    </Setting>
+    <Setting Name="AdoXConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=bcs_development;Persist Security Info=True;User ID=sa;Password=password&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=SQLOLEDB;Data Source=localhost;Initial Catalog=bcs_development;Persist Security Info=True;User ID=sa;Password=password</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
